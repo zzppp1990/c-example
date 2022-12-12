@@ -1,0 +1,13 @@
+x:~/DemoTest1/zp/test_udpPerformance/test/udptest-master$ ./udpsend -l 288 -c 1000000 172.21.0.223 9001
+udp_len = 288, packet_count = 1000000
+total udp_len = 288000000, eth_len=330000000, wire_len=2832000000bits
+sending to 172.21.0.223 9001
+2.467 seconds 1000000 packets 288000000 bytes
+PPS: 405371 PKT/S
+UDP BPS: 933974781 BPS
+ETH BPS: 1070179437 BPS
+WireBPS: 1148010668 BPS
+UDP BPS: 890.708 MPS
+Test success.
+done
+:~/DemoTest1/zp/test_udpPerformance/test/udptest-master$./udprecv -4 9001
