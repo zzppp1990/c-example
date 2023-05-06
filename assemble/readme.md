@@ -30,3 +30,6 @@ r15	            r15d	    r15w	    r15b
 
 cmp 指令用于在两个值之间执行比较, 它可与条件跳转指令一起用于流程控制,如： cmp rax, 50
 jae / jnb Label	Jump if above or equal (unsigned)
+
+
+
